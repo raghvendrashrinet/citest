@@ -26,4 +26,4 @@ jobs:
               with:
                 context: .
                 push: true
-                tags: ${{ vars.DOCKER_USERNAME }}/my-app:${{ github.sha }}:0:7
+                tags: ${{ vars.DOCKER_USERNAME }}/my-app:${{ github.sha }}
